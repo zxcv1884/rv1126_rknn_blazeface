@@ -13,7 +13,7 @@ Move OpenCV to rv1126.
 ```shell
 adb push blazeface /userdata/
 adb push models/anchors.bin /userdata/
-adb push models/blazeface.rknn /userdata/   #if rknn version <= 1.6 use blazeface-16.rknn
+adb push models/blazeface.rknn /userdata/   #rknn runtime version <= 1.6 use blazeface-16.rknn
 adb push images/hinton.jpg /userdata/
 ```
 
@@ -29,6 +29,6 @@ cd /userdata
 
 ```shell
 exit
-adb pull /userdata/output.jpg
+adb pull /userdata/output.jpg .
 ```
 ![output](https://github.com/zxcv1884/rv1126_rknn_blazeface/blob/master/output.jpg)
