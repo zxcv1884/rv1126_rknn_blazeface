@@ -25,10 +25,11 @@ cd /userdata
 ./blazeface blazeface.rknn hinton.jpg
 ```
 
-3.Check output
+3. Check output
 
 ```shell
 exit
 adb pull /userdata/output.jpg .
 ```
+
 ![output](https://github.com/zxcv1884/rv1126_rknn_blazeface/blob/master/output.jpg)
